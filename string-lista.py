@@ -1,0 +1,11 @@
+cadena="Hola como te va!"
+print("*Cadena original")
+print(cadena)
+print("*Recorriendo porción de izq a derecha")
+print(cadena[4:16])
+print("*Recorriendo porción de derecha a izq")
+print(cadena[-8:-1])
+print("*Ahora salteando un caracter")
+print(cadena[0:16:2])
+print("*Leyendo cadena invertida")
+print(cadena[::-1])
