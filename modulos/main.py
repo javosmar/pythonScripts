@@ -9,6 +9,7 @@
 #from calculadora import multip
 #from calculadora import div as func1
 
+"""
 # importando todo de calculadora
 from calculadora import *
 
@@ -17,3 +18,9 @@ resultado2 = resta(20,3)
 print(resultado)
 print(resultado2)
 print(func1(40,3))
+"""
+
+from calculadora import __name__ as __name__calculadora__
+
+#print(__name__)
+#print(__name__calculadora__)
